@@ -63,40 +63,29 @@ var HomePage = /** @class */ (function () {
     HomePage.prototype.loadArray = function () {
         this.slides = [
             {
-                title: "Let's Walk Through A TruckIT Job",
-                description: "Before starting, please make sure both Truckit Apps are installed.",
-                image: "assets/imgs/0_bg_app_c.png",
+                image: "assets/imgs/0_bg_app_c.png"
             },
             {
-                title: "Step 2: Sign In",
-                description: "For your Username, enter your phone number (no dashes).  For Password enter \"vulcan\"",
-                image: "assets/imgs/1_sign_in_c.png",
+                image: "assets/imgs/1_sign_in_c.png"
             },
             {
-                title: "Step 3: Select Your Truck",
-                description: "This screen appears next.  These are the trucks your company has set up.",
-                image: "assets/imgs/2_trucks_c.png",
+                image: "assets/imgs/2_trucks_c.png"
             },
             {
-                title: "Step 4: Select Your Truck and open Driver App",
-                description: "Click on your truck.  Then, at the bottom of the same screen, click the Open Driver App.  This is where you see your next scheduled job.",
-                image: "assets/imgs/2_sel_trucks.png",
+                image: "assets/imgs/2_sel_trucks.png"
             },
             {
-                title: "Step 5: You May Get This Warning",
-                description: "The first time you open the Driver app, you may see this message.  Click OK and, if your device asks, go to the setting page to give TruckIT access.",
-                image: "assets/imgs/3_data_share_c.png",
+                image: "assets/imgs/3_data_share_c.png"
             }
         ];
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/michaelwhittenburg/Documents/BillIonicApp/TruckITHelp/src/pages/home/home.html"*/'<ion-header>\n  <ion-toolbar color="primary">\n    <ion-title text-center>\n      <div class="truckit-logo-container">\n        <img src="assets/imgs/logo-truckit.png" class="truckit-logo">\n      </div>\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content class="tutorial-page">\n\n  <ion-slides pager initialSlide="0" [slidesPerView]="1">\n    <ion-slide *ngFor="let slide of slides">\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <div class="image-area">\n        <img [src]="slide.image" class="slide-image" />\n      </div>\n      <p *ngIf="slide.description" [innerHTML]="slide.description"></p>\n    </ion-slide>\n  </ion-slides>\n</ion-content>'/*ion-inline-end:"/Users/michaelwhittenburg/Documents/BillIonicApp/TruckITHelp/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/michaelwhittenburg/Documents/BillIonicApp/TruckITHelp/src/pages/home/home.html"*/'<ion-header>\n  <ion-toolbar color="primary">\n    <ion-title text-center>\n      <div class="truckit-logo-container">\n        <img src="assets/imgs/logo-truckit.png" class="truckit-logo">\n      </div>\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content class="tutorial-page">\n\n  <ion-slides pager initialSlide="0" [slidesPerView]="1">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <div class="image-area">\n      </div>\n    </ion-slide>\n  </ion-slides>\n</ion-content>'/*ion-inline-end:"/Users/michaelwhittenburg/Documents/BillIonicApp/TruckITHelp/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
     return HomePage;
-    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
